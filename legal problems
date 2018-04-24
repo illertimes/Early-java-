@@ -1,0 +1,28 @@
+
+public class legalproblems {
+
+	public static void main(String[]args){
+		int  x = 22;
+		if(x < 16){
+			System.out.println("You can't drive");
+		}else{
+			System.out.println("");
+		if(x > 18){
+			System.out.println("You can't vote");
+		}else if (x > 16 && x > 18){
+			System.out.println("");
+		}
+		if(x > 25){
+			System.out.println("you can't rent a car");
+		}else if (x < 18 && x > 25){
+			System.out.println("");
+		}
+		if(x < 25){
+			System.out.println("you can do anything that is legal");
+		}
+		else if(x > 25 && x < 18){
+			System.out.println("");
+		}
+		}
+	}
+}
